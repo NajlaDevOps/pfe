@@ -1,7 +1,7 @@
 import { Error } from '@material-ui/icons';
 import * as ActionTypes from './ActionTypes';
 
-const baseUrl = "https://stock-management-webapp.herokuapp.com/";
+const baseUrl = "http://localhost:3001/"
 
 export const addItem = (item) => ({ 
     type: ActionTypes.CREATE_ITEM,
